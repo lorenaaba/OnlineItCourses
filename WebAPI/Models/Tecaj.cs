@@ -5,8 +5,8 @@ namespace OnlineITCourses.Models;
 public class Tecaj
 {
     public int Id { get; set; }
-    public string Naslov { get; set; }
-    public string Opis { get; set; }
+    public string Naslov { get; set; } = string.Empty;
+    public string Opis { get; set; } = string.Empty;
     public DateTime DatumPocetka { get; set; }
     public decimal? Cijena { get; set; }
     public int BrojPrijavljenih { get; set; }
